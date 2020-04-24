@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "@babel/preset-env" // to understand import/export
+  ], 
+  "plugins": [
+    "@babel/plugin-transform-runtime",  // to make async run
+    "@babel/plugin-transform-async-to-generator" // to make async run
+  ]
+}
